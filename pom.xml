@@ -41,7 +41,7 @@
         <!--<module>libra-config</module>-->
         <!--<module>libra-monitoring</module>-->
         <module>libra-registry</module>
-        <!--<module>libra-gateway</module>-->
+        <module>libra-gateway</module>
         <!--<module>auth-service</module>-->
         <!--<module>account-service</module>-->
         <!--<module>statistics-service</module>-->

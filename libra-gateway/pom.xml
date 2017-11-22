@@ -9,16 +9,21 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>libra-registry</artifactId>
+    <artifactId>libra-gateway</artifactId>
     <packaging>jar</packaging>
 
-    <name>libra-registry</name>
+    <name>libra-gateway</name>
     <description>Microservice Architecture</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
     </dependencies>
 
